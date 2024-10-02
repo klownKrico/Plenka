@@ -10,10 +10,10 @@
 	<v-img src="../../assets/name.png" width="1500" height="500" style="margin-left: 10%; z-index: 1; position: absolute"/>
 	<div>
 	<v-img src="../../assets/car.png" width="1000" height="500" style=" margin-left: 25%; margin-top: 20%; z-index: 2; position: absolute" />
-	<v-img src="../../assets/carpurple.png" width="1000" height="500" style=" margin-left: 24%; margin-top: 20%; z-index: 3; position: absolute" />
+	<v-img src="../../assets/carpurple.png" class="purcar" width="1000" height="500" style=" margin-left: 24%; margin-top: 20%; z-index: 3; position: absolute" />
 	<div class="neons" style="margin-top: 32%; margin-left: 45%; width: 20px; height: 20px; z-index: 5; position: absolute"/>
-	<v-img src="../../assets/1.png" width="160" height="175" id="whellItems" style="position: absolute; z-index: 4; margin-top: 36%; margin-left: 49%" />
-	<v-img src="../../assets/1.1.png" width="150" height="150" id="whellItemsTwo" style="position: absolute; z-index: 4; margin-top: 36%; margin-left: 72%" />
+	<v-img src="../../assets/1.png" width="160" height="173" id="whellItems" style="position: absolute; z-index: 4; margin-top: 36%; margin-left: 49%" />
+	<v-img src="../../assets/1.1.png" width="157" height="150" id="whellItemsTwo" style="position: absolute; z-index: 4; margin-top: 36%; margin-left: 72%" />
 	</div>
 
 	<div class="animate__animated animate__bounce animate__infinite" style="color: black; font-size: 40px; z-index: 3; position: absolute; margin-top: 35%; margin-left: 9%; font-family: Iceland, sans-serif"> scroll </div>
@@ -29,6 +29,8 @@
 <script setup lang="ts">
 
 import {onMounted, ref} from "vue";
+import {gsap} from "gsap";
+
 
 const imgItem = ref<HTMLElement>({} as HTMLElement )
 let currentWheel = 0
@@ -107,7 +109,6 @@ onMounted(() => {
 .neons {
 	animation: neon .3s alternate-reverse infinite;
 	animation-iteration-count: 5;
-	//
 }
 
 @keyframes  neon {
@@ -124,6 +125,23 @@ onMounted(() => {
 		filter: blur(10px);
 	}
 
+}
+.purcar {
+	animation: fade 3s ease forwards;
+}
+
+
+@keyframes fade {
+	from {
+		opacity: ;
+		//opacity: 1;
+		//visibility: visible;
+	}
+	to {
+		background: rgba(255,255,255,0%);
+		//opacity: 0;
+		//visibility: hidden;
+	}
 }
 
 </style>
