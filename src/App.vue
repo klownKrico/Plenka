@@ -1,14 +1,22 @@
 <template>
   <v-app>
-    <v-main>
       <router-view />
       <Warp/>
-    </v-main>
   </v-app>
+
 </template>
 
 <script lang="ts" setup>
+import Warp from "./views/components/Warp.vue";
 import {gsap} from "gsap";
-gsap.registerPlugin()
-import Warp from "@/views/components/Warp.vue";
+
 </script>
+
+
+<style lang="scss">
+ *{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+</style>
