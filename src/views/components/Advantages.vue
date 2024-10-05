@@ -80,7 +80,7 @@
         <div style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 55%; margin-left: 58%"> for your advertising </div>
 
         <v-img width="520" height="600" src="./src/assets/tumba.png" style="position: absolute; z-index: 3; margin-left: 59%; margin-top: 100%"/>
-        <div style="background-color: black; border: #A4D144 1px solid; width: 60vh; height: 30%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 80%; margin-left: 55%"/>
+        <div style="background-color: black; border: #A4D144 1px solid; width: 60vh; height: 35%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 80%; margin-left: 55%"/>
         <div style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 95%; margin-left: 62%"> for your furniture </div>
 
 

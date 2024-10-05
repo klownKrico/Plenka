@@ -8,7 +8,11 @@
 		<MainScreen/>
 	</v-col>
 
-	<v-col cols="12" style="min-height: 300vh; border: aquamarine 1px solid">
+    <v-col cols="12" style="height: 40vh">
+        <InfoTop/>
+    </v-col>
+
+	<v-col cols="12" style="min-height: 270vh; border: aquamarine 1px solid">
 		<Advantages/>
 	</v-col>
 
@@ -32,9 +36,11 @@ import MainScreen from "./MainScreen.vue";
 import Advantages from "./Advantages.vue";
 import Order from "./Order.vue";
 import Info from "./Info.vue";
+import InfoTop from "./InfoTop.vue";
 </script>
 
 
 
 <style scoped>
+
 </style>
