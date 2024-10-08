@@ -2,12 +2,12 @@
 
     <div style="height: 100%; width: 100%; border: #A4D144 1px solid; position: relative">
 
-        <v-img width="600" height="600" src="./src/assets/kitchenn.png" style="position: absolute; z-index: 3; margin-left: 2%; margin-top: 20%"/>
-        <div style="background-color: black; border: #A4D144 1px solid; width: 60vh; height: 40%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 10%; margin-left: 5%"/>
-        <div style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 13%; margin-left: 15%"> for your kitchen </div>
+        <v-img class="left_kitchen" width="600" height="600" src="./src/assets/kitchenn.png" style="position: absolute; z-index: 3; margin-top: 20%"/>
+        <div class="left_kitchen" style="background-color: black; border: #A4D144 1px solid; width: 60vh; height: 40%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 9%; margin-left: 4%"/>
+        <div class="left_kitchen" style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 13%; margin-left: 13%"> for your kitchen </div>
 
 
-      <div style="text-align: center; width: fit-content; height: fit-content; margin-left: 65%; margin-top: 21%; position: absolute; z-index: 1">
+      <div class="animate__animated animate__pulse animate__infinite" style="text-align: center; width: fit-content; height: fit-content; margin-left: 65%; margin-top: 21%; position: absolute; z-index: 1">
         <div style="font-family: Iceland, sans-serif; font-size: 55px; color: black;"> <p> WARRANTY </p> <p> AND CERTIFICATION </p> </div>
       </div>
 
@@ -19,12 +19,12 @@
         </svg>
 
 
-        <v-img width="520" height="600" src="./src/assets/stena.png" style="position: absolute; z-index: 3; margin-left: 7%; margin-top: 63%"/>
-        <div style="background-color: black; border: #A4D144 1px solid; width: 60vh; height: 28%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 50%; margin-left: 5%"/>
-        <div style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 60%; margin-left: 10%"> for your home </div>
+        <v-img class="left_kitchen" width="520" height="600" src="./src/assets/stena.png" style="position: absolute; z-index: 3; margin-left: 6%; margin-top: 63%"/>
+        <div class="left_kitchen" style="background-color: black; border: #A4D144 1px solid; width: 60vh; height: 28%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 50%; margin-left: 4%"/>
+        <div class="left_kitchen" style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 60%; margin-left: 7%"> for your home </div>
 
 
-        <div style="font-family: Iceland, sans-serif; margin-left: 40%; margin-top: 10%; font-size: 55px; color: black; position: absolute; z-index: 0; line-height: 60px;"> <p> I </p>
+        <div style="font-family: Iceland, sans-serif; margin-left: 5%; margin-top: 10%; font-size: 55px; color: black; position: absolute; z-index: 0; line-height: 60px;"> <p> I </p>
             <p> N </p>
             <p> D </p>
             <p> I </p>
@@ -44,7 +44,14 @@
             <p> N </p>
             <p> G </p>
         </div>
- <div style="font-family: Iceland, sans-serif; margin-left: 52%; margin-top: 50%; font-size: 55px; color: black; position: absolute; z-index: 0; line-height: 60px;">
+
+
+        <v-img src="./src/assets/plenka.png"></v-img>
+        <v-img src="./src/assets/metall.png" width="400" height="1100" style="position: absolute; z-index: 0; margin-top: 20%; margin-left: 40%"/>
+
+
+
+ <div style="font-family: Iceland, sans-serif; margin-left: 89%; margin-top: 50%; font-size: 55px; color: black; position: absolute; z-index: 0; line-height: 60px;">
             <p> E </p>
             <p> X </p>
             <p> P </p>
@@ -71,17 +78,17 @@
             <path d="M276.274 435.631C276.26 435.213 276.321 434.774 276.478 434.369C276.826 433.463 277.54 432.754 278.455 432.417L280.919 431.493C282.039 431.073 283.466 431.365 284.343 432.17L288.79 436.327C288.848 436.382 289.058 436.45 289.153 436.447L293.816 436.282L289.811 427.756C289.282 426.615 289.3 425.436 289.856 424.523C290.411 423.61 291.451 423.041 292.678 422.997L295.113 422.911C296.963 422.845 298.989 424.104 299.706 425.77L304.462 435.885L309.824 435.695C312.108 435.614 314.785 437.134 315.91 439.147C316.433 440.117 316.471 441.256 316.012 442.242C315.023 444.349 312.471 446.055 310.187 446.136L304.825 446.326L300.749 456.812C300.087 458.527 298.204 459.886 296.335 459.952L293.9 460.039C292.654 460.083 291.599 459.607 290.983 458.717C290.368 457.826 290.273 456.67 290.707 455.495L294.14 446.706L289.478 446.871C289.402 446.874 289.216 446.956 289.161 447.015L284.981 451.498C284.178 452.362 282.735 452.756 281.609 452.416L279.09 451.669C278.154 451.379 277.395 450.721 277.006 449.823C276.618 448.943 276.623 447.954 277.011 447.085C277.064 446.988 277.118 446.892 277.19 446.794L280.744 442.239C280.871 442.082 280.842 441.779 280.725 441.65L276.879 437.358C276.801 437.285 276.741 437.192 276.7 437.098C276.421 436.652 276.291 436.143 276.274 435.631ZM296.931 436.76C296.945 437.197 296.846 437.619 296.612 437.988C296.2 438.668 295.476 439.074 294.608 439.105L289.228 439.296C288.416 439.325 287.44 438.96 286.855 438.41L282.409 434.253C282.312 434.181 282.026 434.115 281.914 434.157L279.431 435.081C279.244 435.145 279.173 435.281 279.138 435.358C279.121 435.416 279.086 435.512 279.127 435.624L282.836 439.751C283.895 440.911 283.956 442.79 282.977 444.022L279.567 448.382C279.553 448.516 279.575 448.61 279.595 448.666C279.636 448.741 279.716 448.89 279.907 448.94L282.426 449.687C282.56 449.721 282.84 449.635 282.913 449.556L287.075 445.094C287.585 444.505 288.553 444.053 289.384 444.023L294.764 443.832C295.613 443.802 296.362 444.137 296.817 444.767C297.273 445.397 297.357 446.23 297.043 447.04L293.349 456.523C293.245 456.812 293.252 457.002 293.291 457.057C293.331 457.113 293.503 457.183 293.805 457.172L296.241 457.086C296.958 457.06 297.863 456.42 298.106 455.765L302.306 445.009C302.637 444.161 303.524 443.54 304.43 443.508L310.093 443.307C311.339 443.263 312.912 442.219 313.44 441.06C313.511 440.905 313.505 440.715 313.423 440.547C312.821 439.466 311.145 438.518 309.918 438.561L304.255 438.762C303.367 438.794 302.423 438.238 302.037 437.416L297.138 426.983C296.852 426.328 295.906 425.753 295.208 425.778L292.773 425.864C292.471 425.875 292.303 425.957 292.267 426.015C292.231 426.073 292.238 426.263 292.36 426.544L296.67 435.724C296.832 436.061 296.92 436.419 296.931 436.76Z" fill="#A4D144"/>
         </svg>
 
-        <div style="text-align: center; width: fit-content; height: fit-content; margin-left: 13%; margin-top: 117%; position: absolute; z-index: 1">
+        <div class="animate__animated animate__pulse animate__infinite" style="text-align: center; width: fit-content; height: fit-content; margin-left: 13%; margin-top: 117%; position: absolute; z-index: 1">
             <div style="font-family: Iceland, sans-serif; font-size: 55px; color: black;"> <p> PROMPT ORDER </p> <p> PLACEMENT </p> </div>
         </div>
 
-        <v-img width="520" height="600" src="./src/assets/banner.png" style="position: absolute; z-index: 3; margin-left: 57%; margin-top: 63%"/>
-        <div style="background-color: black; border: #A4D144 1px solid; width: 60vh; height: 40%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 50%; margin-left: 55%"/>
-        <div style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 55%; margin-left: 58%"> for your advertising </div>
+        <v-img class="right_kitchen" width="520" height="600" src="./src/assets/banner.png" style="position: absolute; z-index: 3; margin-left: 61%; margin-top: 63%"/>
+        <div class="right_kitchen" style="background-color: black; border: #A4D144 1px solid; width: 60vh; height: 40%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 50%; margin-left: 59%"/>
+        <div class="right_kitchen" style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 55%; margin-left: 62%"> for your advertising </div>
 
-        <v-img width="520" height="600" src="./src/assets/tumba.png" style="position: absolute; z-index: 3; margin-left: 59%; margin-top: 100%"/>
-        <div style="background-color: black; border: #A4D144 1px solid; width: 60vh; height: 35%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 80%; margin-left: 55%"/>
-        <div style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 95%; margin-left: 62%"> for your furniture </div>
+        <v-img class="right_kitchen" width="520" height="600" src="./src/assets/tumba.png" style="position: absolute; z-index: 3; margin-left: 63%; margin-top: 100%"/>
+        <div class="right_kitchen" style="background-color: black; border: #A4D144 1px solid; width: 60vh; height: 35%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 80%; margin-left: 59%"/>
+        <div class="right_kitchen" style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 95%; margin-left: 66%"> for your furniture </div>
 
 
     </div>
@@ -93,9 +100,34 @@
 
 <script setup lang="ts">
 
+import {gsap} from "gsap";
+import {ScrollTrigger} from "gsap/ScrollTrigger";
+import {onMounted} from "vue";
+
+gsap.registerPlugin(ScrollTrigger);
 
 
+onMounted(() => {
 
+    gsap.to('.left_kitchen', {
+        scrollTrigger: {
+            trigger: 'header',
+            start: 'top top',
+            scrub: 1.9
+        },
+        xPercent: 15,
+    })
+
+    gsap.to('.right_kitchen', {
+        scrollTrigger: {
+            trigger: 'header',
+            start: 'top top',
+            scrub: 1.9
+        },
+        xPercent: -15,
+    })
+
+})
 
 
 

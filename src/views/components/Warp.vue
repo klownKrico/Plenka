@@ -4,15 +4,11 @@
 	<v-row>
 
 
-	<v-col cols="12" style="background-image: url('./src/assets/fone.png'); height: 100vh;">
+	<v-col cols="12" style="background-image: url('./src/assets/fone.png'); padding: inherit; background-size: cover; height: 102vh;">
 		<MainScreen/>
 	</v-col>
 
-    <v-col cols="12" style="height: 40vh">
-        <InfoTop/>
-    </v-col>
-
-	<v-col cols="12" style="min-height: 270vh; border: aquamarine 1px solid">
+	<v-col cols="12" style="min-height: 270vh; padding: inherit">
 		<Advantages/>
 	</v-col>
 
