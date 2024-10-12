@@ -163,12 +163,12 @@ const wheelCarTwo = () => {
 
 onMounted(() => {
 
-    setInterval(() => {
-        wheelCar()
-    }, 50)
-    setInterval(() => {
-        wheelCarTwo()
-    }, 50)
+    // setInterval(() => {
+    //     wheelCar()
+    // }, 50)
+    // setInterval(() => {
+    //     wheelCarTwo()
+    // }, 50)
 
     setTimeout(() => {
         anime({
@@ -224,7 +224,7 @@ onMounted(() => {
 
     gsap.to('.header .stroke', {
     scrollTrigger: {
-        trigger: 'header',
+        trigger: '.header',
         start: 'top top',
         scrub: 1.9
     },
@@ -233,25 +233,25 @@ onMounted(() => {
 
     gsap.to('.header_img', {
         scrollTrigger: {
-            trigger: 'header',
+            trigger: '.header',
             start: 'top top',
             scrub: 1.9
         },
-        xPercent: -700
+        xPercent: -150
     })
 
     gsap.to('.header_imghells', {
         scrollTrigger: {
-            trigger: 'header',
+            trigger: '.header',
             start: 'top top',
             scrub: 1.9
         },
-        xPercent: -4470
+        xPercent: -950
     })
 
     gsap.to('.section-title', {
         scrollTrigger: {
-            trigger: 'header',
+            trigger: '.header',
             start: 'top top',
             scrub: 1.9
         },

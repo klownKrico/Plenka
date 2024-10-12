@@ -8,11 +8,11 @@
 		<MainScreen/>
 	</v-col>
 
-	<v-col cols="12" style="min-height: 270vh; padding: inherit">
+	<v-col cols="12" style="min-height: 250vh; padding: inherit">
 		<Advantages/>
 	</v-col>
 
-	<v-col cols="12" style="min-height: 100vh; border: aqua 1px solid;">
+	<v-col cols="12" style="height: 100vh; background-image: url('./src/assets/metall.svg'); padding: inherit; background-size: cover; overflow-y: hidden;">
 		<Order/>
 	</v-col>
 
