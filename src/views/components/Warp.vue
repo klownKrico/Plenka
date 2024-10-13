@@ -1,7 +1,7 @@
 
 <template>
 
-	<v-row>
+	<v-row no-gutters class="ob">
 
 
 	<v-col cols="12" style="background-image: url('./src/assets/fone.png'); padding: inherit; background-size: cover; height: 102vh;">
@@ -38,5 +38,9 @@ import InfoTop from "./InfoTop.vue";
 
 
 <style scoped>
+
+.ob * {
+  overflow-y: hidden;
+}
 
 </style>
