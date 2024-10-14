@@ -1,20 +1,22 @@
 <template>
 
     <div style="position: relative; width: 100%; height: 100vh; z-index: 1;" class="header">
-        <div class="car d-flex justify-center align-center" style="width: 100%; height: 100vh; position: relative">
-            <v-img class="header_img" src="./src/assets/car.png" width="1000" height="500"
-                   style="z-index: 2; position: absolute"/>
-            <v-img class="header_img" src="./src/assets/carpurple.png" width="1000" height="500"
-                   style="z-index: 3; position: absolute"/>
 
-            <div style="height: 20vh; width: 20vh">
-                <v-img class="header_imghells" src="./src/assets/1.png" width="160" height="173" id="leftWheel"
-                       style="position: absolute; z-index: 4; margin-top: 2.3vh; margin-left: 1vh"/>
-            </div>
-            <div style="height: 20em; width: 20em">
-                <v-img src="./src/assets/1.1.png" width="160" height="173" id="rightWheel"
-                       style="position: absolute; z-index: 4; margin-top: calc(10em - 100px); margin-left: calc(10em - 100px)"/>
-            </div>
+
+            <svg class="title_paralax" style="margin-left: 10%; margin-top: 6%; position: absolute; z-index: 1" width="1165" height="414"
+                 viewBox="0 0 1165 414" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="popa"
+                      d="M519.082 203.008L585.303 203.008M519.082 203.008L509.582 48.499L486.798 183.453L441.082 183.453L412.582 58.9531L407.082 203.008L294.082 203.008M519.082 203.008L415.082 234.453M519.082 203.008L580.582 222.953L580.582 263.953L544.082 263.953L534.082 241.453L504.082 245.453L492.082 310.953L504.082 367.818L530.082 367.818L534.082 330.453L512.582 324.953L512.582 288.953L589.082 288.953L589.082 407.47M519.082 203.008L473.582 216.765L432.082 263.953L429.082 330.453L449.582 383.953L486.798 407.472L524.082 407.47L557.582 389.953L557.582 407.47L589.082 407.47M179.173 201.501L179.183 2.50771L119.706 2.52433L119.706 60.4956L129.706 128.995L73.1639 2.49456L4.17649 2.49352L15.1761 21.9935L15.2561 201.497L73.164 203.008L73.1639 142.453L62.0821 79.999L125.582 203.008M179.173 201.501L231.702 20.5308L226.208 2.52433L302.224 2.52276L353.227 192.544L367.225 2.5971L451.195 2.57561L469.294 96.5851L486.798 2.49256L561.292 2.55878L575.829 203.008L585.303 203.008M179.173 201.501L125.582 203.008M179.173 201.501L137.582 208.5L105.082 241.453L96.582 278.953L96.582 343.453L110.082 383.953L137.582 402.999L171.082 411.953L213.082 407.47L241.582 389.953L255.082 362.453M585.303 203.008L585.303 2.51351L706.296 2.46388L703.294 48.499L642.795 44.499L642.795 79.999L690.295 79.999L690.295 122.999L642.795 118.499L642.795 159.999L708.309 158.001L708.338 208.5M585.303 203.008L708.338 208.5M708.338 208.5L764.833 402.999L764.835 227.487L754.339 205.983L824.349 205.977L880.998 330.976L870.999 260.476L870.999 205.983L929.478 205.978L929.421 407.471M708.338 208.5L633.582 205.966L637.582 222.953L589.082 407.47M929.421 407.471L946.901 384.469M929.421 407.471L875.082 407.47L813.582 285.453L824.349 343.453L824.349 407.47L699.082 407.47L667.582 267.953L655.082 336.453L683.332 337.711L692.079 376.453L647.082 376.453L642.795 407.471L589.082 407.47M946.901 384.469L946.884 205.975L1009.38 205.966L1009.42 407.471L1022.47 407.471L1022.45 368.453L1079.52 260.481L1095.03 247.961L1028.53 252.961L1028.53 205.966L1162.04 205.961L1162.04 238.454L1095.03 355.954L1085.54 364.454L1162.07 360.954L1162.08 407.47L946.884 407.47L946.901 384.469ZM294.082 203.008L260.582 64.4531L248.582 133.731L277.332 133.731L294.082 203.008ZM294.082 203.008L286.694 172.453L241.582 172.453M294.082 203.008L273.582 205.966L273.582 407.471L334.082 407.47L334.082 343.453L353.227 343.453L362.082 398.953L366.082 407.47L432.082 407.47L421.446 383.953L418.082 371.953L407.082 337.711L393.582 330.453L418.082 304.453L421.446 274.453L415.082 234.453M241.582 172.453L236.582 203.008L125.582 203.008M241.582 172.453L236.829 201.497L181.082 203.008L227.082 214.453L241.582 227.453L255.082 257.953L261.082 288.953M255.082 362.453L261.082 324.953L261.082 288.953M255.082 362.453L192.582 367.818L196.582 294.453L192.582 245.453L179.173 234.453L160.582 248.953L164.082 362.453L185.082 376.453L261.082 288.953M415.082 234.453L389.582 208.5L277.332 208.5L334.082 241.453M415.082 234.453L334.082 241.453M334.082 241.453L334.082 304.453L358.582 294.453L358.582 248.953L334.082 241.453Z"
+                      stroke="white" stroke-width="4" />
+            </svg>
+
+
+        <div class="car" style="width: 100%; margin-top: 37vh; margin-left: 35vh; height: 100vh; position: relative; z-index: 2">
+            <v-img class="header_img" src="./src/assets/car.png" width="830" height="480"
+                   style="z-index: 2; position: absolute; margin-left: 3vh; margin-top: 2vh"/>
+            <v-img class="header_img" src="./src/assets/carpurple.png" width="850" height="500"
+                   style="z-index: 3; position: absolute"/>
+            <div class="neons" style="position: absolute; z-index: 4; width: 5vh; height: 5vh; margin-top: 27vh; margin-left: 42vh" />
         </div>
 
 
@@ -24,94 +26,12 @@
 <script setup lang="ts">
 import {onMounted, ref} from "vue";
 import {gsap} from "gsap";
-let currentWheel = 0
 
-const rightWheel = ref<HTMLElement>({} as HTMLElement)
-const leftWheel = ref<HTMLElement>({} as HTMLElement)
-
-const wheelCar = () => {
-    leftWheel.value = document.querySelector('#leftWheel img')
-    rightWheel.value = document.querySelector('#rightWheel img')
-
-    switch (currentWheel) {
-        case 0:
-            leftWheel.value.setAttribute("src", "/src/assets/1.png");
-            break
-        case 1:
-            leftWheel.value.setAttribute("src", "/src/assets/2.png");
-            break
-        case 2:
-            leftWheel.value.setAttribute("src", "/src/assets/3.png");
-            break
-        case 3:
-            leftWheel.value.setAttribute("src", "/src/assets/4.png");
-            break
-        case 4:
-            leftWheel.value.setAttribute("src", "/src/assets/5.png");
-            break
-        case 5:
-            leftWheel.value.setAttribute("src", "/src/assets/7.png");
-            break
-        case 6:
-            leftWheel.value.setAttribute("src", "/src/assets/8.png");
-            break
-        case 7:
-            leftWheel.value.setAttribute("src", "/src/assets/9.png");
-            break
-        case 8:
-            leftWheel.value.setAttribute("src", "/src/assets/10.png");
-            break
-        case 9:
-            leftWheel.value.setAttribute("src", "/src/assets/11.png");
-            break
-    }
-
-    switch (currentWheel) {
-        case 0:
-            rightWheel.value.setAttribute("src", "/src/assets/1.1.png");
-            break
-        case 1:
-            rightWheel.value.setAttribute("src", "/src/assets/2.1.png");
-            break
-        case 2:
-            rightWheel.value.setAttribute("src", "/src/assets/2.3.png");
-            break
-        case 3:
-            rightWheel.value.setAttribute("src", "/src/assets/2.4.png");
-            break
-        case 4:
-            rightWheel.value.setAttribute("src", "/src/assets/2.5.png");
-            break
-        case 5:
-            rightWheel.value.setAttribute("src", "/src/assets/2.6.png");
-            break
-        case 6:
-            rightWheel.value.setAttribute("src", "/src/assets/2.7.png");
-            break
-        case 7:
-            rightWheel.value.setAttribute("src", "/src/assets/2.8.png");
-            break
-        case 8:
-            rightWheel.value.setAttribute("src", "/src/assets/2.9.png");
-            break
-        case 9:
-            rightWheel.value.setAttribute("src", "/src/assets/10.1.png");
-            break
-    }
-
-    currentWheel++
-    if (currentWheel >= 10) {
-        currentWheel = 0
-    }
-}
 
 
 onMounted(() => {
-    setInterval(() => {
-        wheelCar()
-    }, 50)
 
-    gsap.to('.header', {
+    gsap.to('.car', {
         scrollTrigger: {
             trigger: '.header',
             start: 'top top',
@@ -119,9 +39,50 @@ onMounted(() => {
         },
         xPercent: -500
     })
+
+    gsap.to('.title_paralax', {
+        scrollTrigger: {
+            trigger: '.header',
+            start: 'top top',
+            scrub: 1.9
+        },
+        yPercent: -550
+    })
 })
 </script>
 
 <style scoped>
+.popa {
+    stroke-dasharray: 10000;
+    stroke-dashoffset: 10000;
+    animation: pop 15s linear forwards;
+}
+
+@keyframes pop {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.neons {
+    animation: neon .3s alternate-reverse infinite;
+    animation-iteration-count: 5;
+}
+
+@keyframes neon {
+    from {
+        background-color: rgba(255, 255, 255, 1);
+        width: 2px;
+        height: 2px;
+        filter: blur(5px);
+    }
+    to {
+        background-color: rgba(255, 255, 255, 1);
+        width: 20px;
+        height: 20px;
+        filter: blur(10px);
+    }
+
+}
 
 </style>

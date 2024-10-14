@@ -1,82 +1,57 @@
 <template>
 
-    <div class="header" style="height: 100%; width: 100%; border: #A4D144 1px solid; position: relative">
+    <FoneAdvantages style="position: absolute; z-index: 0" />
 
-        <v-img class="left_kitchen" width="600" height="600" src="./src/assets/kitchenn.png" style="position: absolute; z-index: 3; margin-top: 20%"/>
-        <div class="left_kitchen" style="background-color: black; width: 60vh; height: 40%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 9%; margin-left: 4%"/>
-        <div class="left_kitchen" style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 13%; margin-left: 13%"> for your kitchen </div>
+    <div class="header" style="height: 100%; width: 100%; border: #A4D144 1px solid">
 
+        <v-row>
+            <v-col cols="6" style="border: #A4D144 1px solid; height: 250vh">
 
-      <div class="right_text" style=" width: fit-content; height: fit-content; margin-left: 65%; margin-top: 19%; position: absolute; z-index: 1">
-        <div style="font-family: Iceland, sans-serif; font-size: 55px; color: black;"> WRAP EVERYTHING </div>
-        <div style="font-family: Iceland, sans-serif; font-size: 35px; color: black;">
-            you can paste over metal, wood, concrete, many coverings and decorate your kitchen, room or furniture with it. you can use printed film to advertise on walls and objects. </div>
-      </div>
+                <div class="left_fonkitchen" style=" background-color: black; width: 60vh; height: 160vh; border-radius: 10px; margin-top: 9%; margin-left: 4%">
 
+                    <div class="left_kitchen" style="position: absolute; z-index: 2; font-family: Iceland, sans-serif; font-size: 55px; color: white; margin-top: 5vh; margin-left: 13%"> for your kitchen </div>
+                    <v-img class="left_kitchen" width="500" height="500" src="./src/assets/kitchenn.png" style="margin-top: 20vh"/>
 
+                    <div class="left_kitchen" style="font-family: Iceland, sans-serif; font-size: 55px; color: white; margin-top: 5vh; margin-left: 7vh"> for your home </div>
+                    <v-img class="left_kitchen" width="400" height="400" src="./src/assets/stena.png" style="margin-top: 5vh"/>
 
+                    <div class="left_text" style="width: 45vh; height: fit-content">
+                        <div style="font-family: Iceland, sans-serif; font-size: 55px; color: black;"> WE ARE THE BEST </div>
+                        <div style="font-family: Iceland, sans-serif; font-size: 35px; color: black;"> fast delivery, individual packaging, high quality at a low price, prompt assistance, convenient website </div>
+                    </div>
 
-        <v-img class="left_kitchen" width="520" height="600" src="./src/assets/stena.png" style="position: absolute; z-index: 3; margin-left: 6%; margin-top: 63%"/>
-        <div class="left_kitchen" style="background-color: black; width: 60vh; height: 30%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 50%; margin-left: 4%"/>
-        <div class="left_kitchen" style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 60%; margin-left: 7%"> for your home </div>
+                </div>
 
+            </v-col>
 
-        <div style="font-family: Iceland, sans-serif; margin-left: 5%; margin-top: 10%; font-size: 55px; color: black; position: absolute; z-index: 0; line-height: 60px;"> <p> I </p>
-            <p> N </p>
-            <p> D </p>
-            <p> I </p>
-            <p> V </p>
-            <p> I </p>
-            <p> D </p>
-            <p> U </p>
-            <p> A </p>
-            <p> L </p>
-            <p> P </p>
-            <p> A </p>
-            <p> C </p>
-            <p> K </p>
-            <p> A </p>
-            <p> G </p>
-            <p> I </p>
-            <p> N </p>
-            <p> G </p>
-        </div>
+            <v-col cols="6" style="border: #d700ff 1px solid">
+
+                  <div class="right_text" style=" width: 75vh; height: fit-content; margin-left: 30vh; margin-top: 10vh;">
+                    <div style="font-family: Iceland, sans-serif; font-size: 55px; color: black;"> WRAP EVERYTHING </div>
+                    <div style="font-family: Iceland, sans-serif; font-size: 35px; color: black;">
+                        you can paste over metal, wood, concrete, many coverings and decorate your kitchen, room or furniture with it. you can use printed film to advertise on walls and objects. </div>
+                  </div>
+
+            </v-col>
 
 
- <div style="font-family: Iceland, sans-serif; margin-left: 89%; margin-top: 50%; font-size: 55px; color: black; position: absolute; z-index: 0; line-height: 60px;">
-            <p> E </p>
-            <p> X </p>
-            <p> P </p>
-            <p> R </p>
-            <p> E </p>
-            <p> S </p>
-            <p> S </p>
-            <p> D </p>
-            <p> E </p>
-            <p> L </p>
-            <p> I </p>
-            <p> V </p>
-            <p> E </p>
-            <p> R </p>
-            <p> G </p>
-            <p> Y </p>
-        </div>
 
 
-        <div class="left_text" style="width: 45vh; height: fit-content; margin-left: 13%; margin-top: 105%; position: absolute; z-index: 1">
-            <div style="font-family: Iceland, sans-serif; font-size: 55px; color: black;"> WE ARE THE BEST </div>
-            <div style="font-family: Iceland, sans-serif; font-size: 35px; color: black;"> fast delivery, individual packaging, high quality at a low price, prompt assistance, convenient website </div>
-        </div>
-
-        <v-img class="right_kitchen" width="520" height="600" src="./src/assets/banner.png" style="position: absolute; z-index: 3; margin-left: 61%; margin-top: 63%"/>
-        <div class="right_kitchen" style="background-color: black; width: 60vh; height: 40%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 50%; margin-left: 59%"/>
-        <div class="right_kitchen" style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 55%; margin-left: 62%"> for your advertising </div>
-
-        <v-img class="right_kitchen" width="520" height="600" src="./src/assets/tumba.png" style="position: absolute; z-index: 3; margin-left: 63%; margin-top: 100%"/>
-        <div class="right_kitchen" style="background-color: black; width: 60vh; height: 37%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 80%; margin-left: 59%"/>
-        <div class="right_kitchen" style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 95%; margin-left: 66%"> for your furniture </div>
 
 
+
+
+
+
+<!--        <v-img class="right_kitchen" width="520" height="600" src="./src/assets/banner.png" style="position: absolute; z-index: 3; margin-left: 61%; margin-top: 63%"/>-->
+<!--        <div class="right_kitchen" style="background-color: black; width: 60vh; height: 40%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 50%; margin-left: 59%"/>-->
+<!--        <div class="right_kitchen" style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 55%; margin-left: 62%"> for your advertising </div>-->
+
+<!--        <v-img class="right_kitchen" width="520" height="600" src="./src/assets/tumba.png" style="position: absolute; z-index: 3; margin-left: 63%; margin-top: 100%"/>-->
+<!--        <div class="right_kitchen" style="background-color: black; width: 60vh; height: 37%; border-radius: 10px; position: absolute; z-index: 1; margin-top: 80%; margin-left: 59%"/>-->
+<!--        <div class="right_kitchen" style="font-family: Iceland, sans-serif; font-size: 55px; color: white; position: absolute; z-index: 2; margin-top: 95%; margin-left: 66%"> for your furniture </div>-->
+
+        </v-row>
     </div>
 
 
@@ -89,6 +64,8 @@
 import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 import {onMounted} from "vue";
+import FoneAdvantages from "./FoneAdvantages.vue";
+import LeftAdvantages from "./LeftAdvantages.vue";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -102,6 +79,15 @@ onMounted(() => {
             scrub: 10.9
         },
         xPercent: 15,
+    })
+
+    gsap.to('.left_fonkitchen', {
+        scrollTrigger: {
+            trigger: '.header',
+            start: 'top top',
+            scrub: 5
+        },
+        xPercent: 42,
     })
 
     gsap.to('.right_kitchen', {
